@@ -10,7 +10,7 @@ $ docker run -P -v </Your/Absolute/Path/To/laravel/folder>:/var/www spiralout/dc
 replacing `<YourComposerCommand>` with any composer command, like create, update, install.
 
 
-Run to create a new project
+Run to create a new laravel project
 ```
 $ docker run -P -v </Your/Absolute/Path/To/laravel/folder>:/var/www spiralout/dcomposer create-project laravel/laravel /var/www --prefer-dist' 
 ```
