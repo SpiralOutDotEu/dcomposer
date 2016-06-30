@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.1
 
 MAINTAINER "SpiralOut" <spiralout.eu@gmail.com>
 
