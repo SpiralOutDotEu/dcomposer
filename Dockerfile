@@ -1,8 +1,8 @@
-FROM php:latest
+FROM php:7.2-cli-alpine
 
 MAINTAINER "SpiralOut" <spiralout.eu@gmail.com>
 
-# RUN apk --update add wget curl git php php-curl php-openssl php-json php-phar php-dom php-pdo
+RUN apk --update add php7-xml
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
 
